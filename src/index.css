@@ -98,13 +98,13 @@
 
 /* Custom neon glow effects */
 .neon-glow {
-  box-shadow: 0 0 5px theme(colors.primary), 0 0 10px theme(colors.primary), 0 0 15px theme(colors.primary);
+  box-shadow: 0 0 5px theme(colors.primary.DEFAULT), 0 0 10px theme(colors.primary.DEFAULT), 0 0 15px theme(colors.primary.DEFAULT);
 }
 
 .neon-text {
-  text-shadow: 0 0 10px theme(colors.primary);
+  text-shadow: 0 0 10px theme(colors.primary.DEFAULT);
 }
 
 .gradient-neon {
-  background: linear-gradient(135deg, theme(colors.primary) 0%, theme(colors.secondary) 100%);
+  background: linear-gradient(135deg, theme(colors.primary.DEFAULT) 0%, theme(colors.secondary.DEFAULT) 100%);
 }
