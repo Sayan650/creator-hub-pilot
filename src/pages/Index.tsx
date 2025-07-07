@@ -5,7 +5,7 @@ import { ArrowRight, Zap, TrendingUp, DollarSign } from 'lucide-react';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900">
+    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-black">
       {/* Navigation */}
       <nav className="flex items-center justify-between p-6 border-b border-gray-800">
         <div className="flex items-center space-x-2">
@@ -29,9 +29,9 @@ const Index = () => {
       {/* Hero Section */}
       <div className="container mx-auto px-6 py-20">
         <div className="text-center max-w-4xl mx-auto">
-          <h1 className="text-6xl font-bold text-white mb-6 leading-tight">
-            Your Ultimate
-            <span className="gradient-neon bg-clip-text text-transparent"> Creator Hub</span>
+          <h1 className="text-6xl font-bold mb-6 leading-tight">
+            <span className="text-white">Your Ultimate</span>
+            <span className="block text-primary neon-text"> Creator Hub</span>
           </h1>
           <p className="text-xl text-gray-300 mb-8 leading-relaxed">
             Streamline brand collaborations, generate AI-powered content, and track your creator finances all in one powerful platform.
